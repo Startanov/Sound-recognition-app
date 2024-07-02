@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #f5576c, #f093fb); /* Градієнтний фон */
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+#topLabel {
+    font-size: 2em;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2); /* Напівпрозорий фон */
+    border-radius: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Зелений */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #ccc; /* Сірий */
+    cursor: default;
+}
